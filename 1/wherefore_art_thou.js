@@ -2,7 +2,6 @@
 function whatIsInAName(collection, source) {
     let startTime = performance.now()
     let arr = [];
-    // Only change code below this line
     const keys = Object.keys(source)
     const values = Object.values(source)
     let hadTheValues = [] 
