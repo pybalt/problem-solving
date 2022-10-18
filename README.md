@@ -1,6 +1,6 @@
 # problem-solving
 Just problem solving.
 
-|Name of the problem| folder name|
+| N folder | Name of the problem | 
 |--|--|
-| Wherefore art thou  | 1 |
+| 1 | Wherefore art thou  |
