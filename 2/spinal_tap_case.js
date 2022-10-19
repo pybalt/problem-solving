@@ -8,6 +8,9 @@ function spinalCase(str) {
   }
   
   spinalCase('This Is Spinal Tap');
+  spinalCase('thisIsSpinalTap');
+  spinalCase('The_Andy_Griffith_Show');
+  spinalCase('Teletubbies say Eh-oh');
 /*
 spinalCase("This Is Spinal Tap") 
 
