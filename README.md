@@ -1,5 +1,5 @@
 # problem-solving
-Just problem solving.
+This is a repo with problem-solving using TDD with JEST Framework
 
 | N folder | Name of the problem | 
 |--|--|
