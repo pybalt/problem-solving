@@ -8,7 +8,8 @@ This is a repo with problem-solving using TDD with JEST Framework
 | [3](https://github.com/pybalt/problem-solving/tree/main/3) | Pig Latin |
 | [4](https://github.com/pybalt/problem-solving/tree/main/4) | Search and Replace |
 | [5](https://github.com/pybalt/problem-solving/tree/main/5) | Missing letters |
-| [6](https://github.com/pybalt/problem-solving/tree/main/5) | Sorted union |
+| [6](https://github.com/pybalt/problem-solving/tree/main/6) | Sorted union |
+| [7](https://github.com/pybalt/problem-solving/tree/main/7) | Sum All Odd Fibonacci Numbers |
 
 To run the tests:
 
