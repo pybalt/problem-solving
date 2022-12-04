@@ -10,6 +10,7 @@ This is a repo with problem-solving using TDD with JEST Framework
 | [5](https://github.com/pybalt/problem-solving/tree/main/5) | Missing letters |
 | [6](https://github.com/pybalt/problem-solving/tree/main/6) | Sorted union |
 | [7](https://github.com/pybalt/problem-solving/tree/main/7) | Sum All Odd Fibonacci Numbers |
+| [8](https://github.com/pybalt/problem-solving/tree/main/8) | Smallest Common Multiple |
 
 To run the tests:
 
