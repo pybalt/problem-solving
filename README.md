@@ -13,7 +13,9 @@ After N8 I Switched to TypeScript.
 | [7](https://github.com/pybalt/problem-solving/tree/main/7) | Sum All Odd Fibonacci Numbers |
 | [8](https://github.com/pybalt/problem-solving/tree/main/8) | Smallest Common Multiple |
 | [9](https://github.com/pybalt/problem-solving/tree/main/9) | Stream Roller  |
-| [10](https://github.com/pybalt/problem-solving/tree/main/10) | Palindrome Checker  |
+| [10](https://github.com/pybalt/problem-solving/tree/main/10) | Project: Palindrome Checker  |
+| [11](https://github.com/pybalt/problem-solving/tree/main/11) | Project: Roman Numeral Converter  |
+
 To run the tests:
 
 ```
