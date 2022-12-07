@@ -18,6 +18,9 @@ const prohibitedAlph = [
 * @returns *boolean*
 */
 function elevenDigitsChecker(arrFromStr) {
+    if ((arrFromStr[0] === '+' && arrFromStr[1] === '1')) {
+        return isNaN(parseInt(arrFromStr[2]));
+    }
     if (arrFromStr[0] != '1') {
         return false;
     }
@@ -35,7 +38,7 @@ function purgeNumberFromNonNumbers(arrFromStr) {
 */
 function telephoneCheck(str) {
     // Starts either with 1, three numbers or ( number, number, number )
-    let regexs = /^(1|\d{3}|\(\d{3}\))/g;
+    let regexs = /^(\+1|1|\d{3}|\(\d{3}\))/g;
     const arrFromStr = str.split('');
     let hasProhibitedAlphs = arrFromStr.map(el => prohibitedAlph.includes(el));
     if (hasProhibitedAlphs.some(el => el === true)) {
@@ -51,15 +54,13 @@ function telephoneCheck(str) {
     if (purgedStr.length < 10) {
         return false;
     }
-    if (purgedStr.length > 11) {
+    if (purgedStr.length > 11 && (arrFromStr[0] !== '+')) {
         return false;
     }
-    if (purgedStr.length === 11) {
-        if (!elevenDigitsChecker(arrFromStr)) {
-            return false;
-        }
+    if (purgedStr.length === 11 && !elevenDigitsChecker(arrFromStr)) {
+        return false;
     }
     return regexs.test(str);
 }
-console.log(telephoneCheck("10 (757) 622-7382"));
+console.log(telephoneCheck("+1 (757) 622-7382"));
 module.exports = telephoneCheck;
