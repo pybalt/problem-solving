@@ -33,6 +33,9 @@ test('', ()=>
 expect(telephoneCheck("1 555)555-5555")).toBe(false)
 );
 test('', ()=> 
+expect(telephoneCheck("+1 (555)555-5555")).toBe(true)
+);
+test('', ()=> 
 expect(telephoneCheck("1 555 555 5555")).toBe(true)
 );
 test('', ()=> 
