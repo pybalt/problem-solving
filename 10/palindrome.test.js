@@ -2,7 +2,7 @@ const fun = require(`./palindrome_checker`)
 
 test('', () =>
 expect(fun("eye"))
-.toBe(false||true)
+.toBe(typeof fun("eye") === 'boolean')
 )
 test('', () =>
 expect(fun("eye"))
