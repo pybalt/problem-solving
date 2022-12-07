@@ -16,7 +16,7 @@ After N8 I Switched to TypeScript.
 | [10](https://github.com/pybalt/problem-solving/tree/main/10) | Project: Palindrome Checker  |
 | [11](https://github.com/pybalt/problem-solving/tree/main/11) | Project: Roman Numeral Converter  |
 | [12](https://github.com/pybalt/problem-solving/tree/main/12) | Project: Caesars Cipher  |
-
+| [13](https://github.com/pybalt/problem-solving/tree/main/13) | Project: Telephone number validator  |
 
 To run the tests:
 
