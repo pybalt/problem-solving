@@ -18,6 +18,8 @@ After N8 I switched to TypeScript.
 | [12](https://github.com/pybalt/problem-solving/tree/main/12) | Project: Caesars Cipher  |
 | [13](https://github.com/pybalt/problem-solving/tree/main/13) | Project: Telephone number validator  |
 | [14](https://github.com/pybalt/problem-solving/tree/main/14) | Project: Cash Register |
+
+
 To run the tests:
 
 ```
