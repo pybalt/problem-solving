@@ -1,6 +1,6 @@
 # problem-solving
 This is a repo with of problem-solving where I did some exercises using TDD with JEST Framework.
-After N8 I Switched to TypeScript.
+After N8 I switched to TypeScript.
 
 | N folder | Name of the problem | 
 |--|--|
